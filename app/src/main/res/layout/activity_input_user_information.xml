@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <fragment
+        android:id="@+id/input_information_container"
+        android:name="com.zviagin_danila.eventer.ui.authentication.input_user_information_fragments.InputNameFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/input_information_next_button"
+        style="@style/Widget.Eventer.Button"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_margin="20dp"
+        app:cornerRadius="20dp"
+        android:text="@string/next_button"
+        android:elevation="10dp"/>
+
+</LinearLayout>

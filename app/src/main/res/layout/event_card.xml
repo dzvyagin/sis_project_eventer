@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="30dp"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="25dp"
+        android:paddingEnd="50dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25sp">
+
+        <TextView
+            android:id="@+id/distanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 км"
+            android:textSize="17sp"
+            android:textColor="@color/light_gray"/>
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Title"
+            android:layout_below="@+id/distanceTextView"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:text="Today, 0.00PM - 10 may, 6.30PM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/titleTextView"
+            android:textColor="@color/black"
+            />
+
+        <ImageView
+            android:id="@+id/photoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeTextView"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop" />
+
+
+        <ImageButton
+            android:id="@+id/add_favorite"
+            android:src="@drawable/ic_baseline_star_border_24"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:padding="5dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

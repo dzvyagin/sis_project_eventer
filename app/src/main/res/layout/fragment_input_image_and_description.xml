@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.authentication.input_user_information_fragments.InputImageAndDescriptionFragment">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/input_image_button"
+        style="@style/Widget.Eventer.Button"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_margin="40dp"
+        app:cornerRadius="30dp"
+        android:text="@string/next_button"
+        android:elevation="10dp"
+        android:layout_gravity="bottom"/>
+
+    <LinearLayout
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" />
+
+</FrameLayout>

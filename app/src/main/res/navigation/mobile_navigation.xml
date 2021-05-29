@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.zviagin_danila.eventer.ui.main_content.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.zviagin_danila.eventer.ui.main_content.favorites.FavoritesFragment"
+        android:label="@string/title_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/navigation_add_event"
+        android:name="com.zviagin_danila.eventer.ui.main_content.add_event.AddEventFragment"
+        android:label="@string/title_add_event"
+        tools:layout="@layout/fragment_add_event" />
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.zviagin_danila.eventer.ui.main_content.messages.MessagesFragment"
+        android:label="@string/title_messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/navigation_responses"
+        android:name="com.zviagin_danila.eventer.ui.main_content.responses.ResponsesFragment"
+        android:label="@string/title_responses"
+        tools:layout="@layout/fragment_responses" />
+
+
+</navigation>

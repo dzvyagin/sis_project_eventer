@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "356712151994",
+    "project_id": "eventer-f1937",
+    "storage_bucket": "eventer-f1937.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356712151994:android:9927f930fa3c0dc89fbb83",
+        "android_client_info": {
+          "package_name": "com.zviagin_danila.eventer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356712151994-j2jo5rlmjkcedg4qqs8u5661i8qh2kr4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zviagin_danila.eventer",
+            "certificate_hash": "f681c57dae038fac1d892c7273164e3af565142b"
+          }
+        },
+        {
+          "client_id": "356712151994-dh2ef85r42f1ten58qbnpkp78c4hp9bf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe0UO23UxAKI2MUNpTPll5p4ZnkKa0YdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356712151994-dh2ef85r42f1ten58qbnpkp78c4hp9bf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

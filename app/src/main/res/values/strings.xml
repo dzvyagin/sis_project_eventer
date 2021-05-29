@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Eventer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_by_phone_number_button">Войти по номеру телефона</string>
+    <string name="login_by_google">Google</string>
+    <string name="login_by_facebook">Facebook</string>
+    <string name="login_by_number_text_view">Войти в аккаунт</string>
+    <string name="login_by_social_text_view">Также можете войти с помощью соцсетей</string>
+    <string name="input_mobile_number_hint">923-456-78-90</string>
+    <string name="notice_about_sms">Для подтверждения, на этот номер будет отправленно смс</string>
+    <string name="next_button">Далее</string>
+    <string name="input_first_name_edit_text">First Name</string>
+    <string name="input_last_name_edit_text">Last Name</string>
+    <string name="pick_single">Please select your image</string>
+    <string name="file_provider" translatable="false">com.zviagin_danila.eventer.fileprovider</string>
+    <string name="input_name_title">Enter your first and last name</string>
+    <string name="title_home">Главная</string>
+    <string name="title_favorites">Избранные</string>
+    <string name="title_responses">Отклики</string>
+    <string name="title_messages">Сообщения</string>
+    <string name="title_add_event">Добавить</string>
+    <string name="search_title">Поиск</string>
+    <string name="filter_title">Фильтр</string>
+    <string name="shr_product_title">Title</string>
+    <string name="shr_product_description">descriptoin</string>
+    <string name="add_event_title_add">Добавить событие</string>
+    <string name="free">Бесплатно</string>
+    <string name="add_event_place">Место:</string>
+    <string name="add_event_input_location_hint">Введите адрес</string>
+    <string name="add_event_add_image">Добавить фото:</string>
+    <string name="description">Описание</string>
+    <string name="price">Стоимость (рублей)</string>
+    <string name="add_event_button">Добавить событие</string>
+    <string name="description_event">Описание</string>
+    <string name="response_button">Откликнутся</string>
+    <string name="verify_code">Введите код</string>
+</resources>
