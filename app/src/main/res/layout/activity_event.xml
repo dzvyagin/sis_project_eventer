@@ -61,6 +61,24 @@
                 style="@style/TextBody2"
                 android:layout_marginBottom="30dp"/>
 
+            <TextView
+                android:layout_marginTop="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone"
+                style="@style/TextBody1"/>
+
+            <TextView
+                android:id="@+id/event_phone_number"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="number"
+                style="@style/TextBody2"
+                android:layout_marginBottom="30dp"/>
+
+
+
         </LinearLayout>
 
         <View style="@style/Divider"/>

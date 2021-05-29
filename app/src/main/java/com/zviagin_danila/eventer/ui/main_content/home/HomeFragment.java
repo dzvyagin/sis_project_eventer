@@ -92,6 +92,7 @@ public class HomeFragment extends Fragment {
                                 event.setLocationLatitude((Double) document.get("location_latitude"));
                                 event.setLocationLongitude((Double) document.get("location_longitude"));
                                 event.setId((Long) document.get("eventId"));
+                                event.setPhoneNumber((String) document.get("phoneNumber"));
 
                                 eventArrayList.add(event);
                             }
@@ -143,6 +144,7 @@ public class HomeFragment extends Fragment {
         intent.putExtra("location_latitude", eventArrayList.get(position).getLocationLatitude());
         intent.putExtra("location_longitude", eventArrayList.get(position).getLocationLongitude());
         intent.putExtra("price", eventArrayList.get(position).getPrice());
+        intent.putExtra("number", eventArrayList.get(position).getPhoneNumber());
         startActivity(intent);
     }
 }

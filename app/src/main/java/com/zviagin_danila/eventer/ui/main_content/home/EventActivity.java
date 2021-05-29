@@ -24,6 +24,7 @@ public class EventActivity extends AppCompatActivity {
     TextView date;
     TextView description;
     TextView author;
+    TextView number;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,8 @@ public class EventActivity extends AppCompatActivity {
         title = findViewById(R.id.event_title);
         date = findViewById(R.id.event_date);
         description = findViewById(R.id.event_description);
+        number = findViewById(R.id.event_phone_number);
+
 
         responseButton = findViewById(R.id.send_message_button);
         responseButton.setOnClickListener(new View.OnClickListener() {
@@ -47,6 +50,7 @@ public class EventActivity extends AppCompatActivity {
         date.setText(Utils.getReadableDateTime(intent.getLongExtra("timeStart", 0),
                 intent.getLongExtra("timeEnd", 0)));
         description.setText(intent.getStringExtra("description"));
+        number.setText(intent.getStringExtra("number"));
 
         imageButton = findViewById(R.id.event_back_button);
         imageButton.setOnClickListener(v -> {

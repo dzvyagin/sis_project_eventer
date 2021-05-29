@@ -18,6 +18,7 @@ public class Event {
     private ArrayList<String> categories;
     private ArrayList<Integer> favorites;
     private String author;
+    private String phoneNumber;
 
     public Event() {
     }
@@ -121,5 +122,13 @@ public class Event {
 
     public void setFavorites(ArrayList<Integer> favorites) {
         this.favorites = favorites;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 }

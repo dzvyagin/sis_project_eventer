@@ -35,4 +35,5 @@
     <string name="description_event">Описание</string>
     <string name="response_button">Откликнутся</string>
     <string name="verify_code">Введите код</string>
+    <string name="phone">Телефон:</string>
 </resources>

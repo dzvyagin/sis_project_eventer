@@ -151,6 +151,7 @@ public class AddEventOptionalFragment extends Fragment {
         String price = priceTextInputLayout.getEditText().getText().toString().trim();
         event.put("price", price != null ? price : 0);
         event.put("eventId", nextEventId());
+        event.put("phoneNumber", firebaseAuth.getCurrentUser().getPhoneNumber());
 
 
         // Add a new document with a generated ID
